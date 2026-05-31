@@ -1,0 +1,31 @@
+# ==========================================
+# 🔒 ARCHIVO DE CONFIGURACIÓN SENSIBLE
+# ==========================================
+# NO SUBAS ESTE ARCHIVO A GITHUB
+# Este archivo contiene credenciales reales
+
+.env
+.env.local
+config/.env.local
+
+# ==========================================
+# 📁 CARPETAS DEL SISTEMA
+# ==========================================
+.DS_Store
+Thumbs.db
+node_modules/
+vendor/
+
+# ==========================================
+# 📝 LOGS Y CACHÉ
+# ==========================================
+*.log
+.cache/
+tmp/
+
+# ==========================================
+# 💾 BACKUPS Y COPIAS
+# ==========================================
+*.sql
+*.backup
+*.bak
